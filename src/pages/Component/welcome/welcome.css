@@ -1,4 +1,4 @@
-.wel_wrap {
+ .wel_wrap {
     display: flex;
     /* height: 62em; */
     padding: 9em 4em 0 4em;
@@ -37,10 +37,10 @@ p.wel_txt3 {
     filter:drop-shadow(6px 6px 6px snow)
 }
 
-button.download_btn:hover:before {
+/* button.download_btn:hover:before {
     width: 17.6em;
-}
-button.download_btn::before {
+} */
+/* button.download_btn::before {
     z-index: -1;
     transition: all 1s;
     position: absolute;
@@ -50,7 +50,11 @@ button.download_btn::before {
     height: 3.2em;
     width: 0em;
     content: '';
-}
+} */
+ button.download_btn:hover{
+    transition: all 1s;
+    background-color: rgb(251,3,103);
+} 
 button.download_btn {
     color: white;
     width: 18em;
